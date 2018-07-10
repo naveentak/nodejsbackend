@@ -1,0 +1,31 @@
+{
+  "name": "nodeapiproject",
+  "version": "1.0.0",
+  "description": "REST API nodeJS and Express Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./index.js -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveentak/nodejsbackend.git"
+  },
+  "author": "Naveen Tak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveentak/nodejsbackend/issues"
+  },
+  "homepage": "https://github.com/naveentak/nodejsbackend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.2",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

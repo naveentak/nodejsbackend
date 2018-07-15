@@ -21,6 +21,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.2.2",
+    "newman": "^3.10.0",
     "nodemon": "^1.17.5"
   },
   "devDependencies": {
